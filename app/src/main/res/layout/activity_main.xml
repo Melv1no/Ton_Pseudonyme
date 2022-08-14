@@ -13,6 +13,7 @@
         android:layout_height="1408dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/background" />
@@ -22,14 +23,13 @@
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="100dp"
-        android:layout_marginBottom="100dp"
-        android:text="Copier le pseudonyme"
-
         android:background="#55000000"
-        android:textColor="@color/white"
+
         android:fontFamily="sans-serif-black"
+        android:text="Copier le pseudonyme"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -41,7 +41,6 @@
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="100dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="100dp"
         android:background="#55000000"
@@ -51,7 +50,7 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/generatedUsername"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -76,7 +75,8 @@
     <Switch
         android:id="@+id/numberSwitch"
         android:layout_width="100dp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
         android:text="Chiffres"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/copyBtn"
